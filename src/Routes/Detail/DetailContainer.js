@@ -9,7 +9,7 @@ export default class extends React.Component {
     }
 
     render() {
-        const { result, error, loading } = this.state;
+        const { movieResults, result, error, loading } = this.state;
         return (
             <DetailPresenter
                 movieResults={movieResults}
