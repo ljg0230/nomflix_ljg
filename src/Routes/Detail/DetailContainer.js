@@ -11,7 +11,7 @@ export default class extends React.Component {
     this.state = {
       result: null,
       error: null,
-      loading: false,
+      loading: true,
       isMovie: pathname.includes("/movie/")
     };
   }
@@ -46,15 +46,7 @@ export default class extends React.Component {
   }
 
   render() {
-    //console.log(this.state);
-    const { movieResults, result, error, loading } = this.state;
-    return (
-      <DetailPresenter
-        movieResults={movieResults}
-        result={result}
-        error={error}
-        loading={loading}
-      />
-    );
+    const { result, error, loading } = this.state;
+    return <DetailPresenter result={result} error={error} loading={loading} />;
   }
 }

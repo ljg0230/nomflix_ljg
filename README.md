@@ -2,7 +2,7 @@
 
 Learning React and ES6 by building a Movie Discovery App.
 
-## Screens 
+## Screens
 
 - [ ] Home
 - [ ] TV Shows
@@ -11,11 +11,11 @@ Learning React and ES6 by building a Movie Discovery App.
 
 ## API Verbs
 
-- [x] Now Playing (Movie)
+- [x] Now playing (Movie)
 - [x] Upcoming (Movie)
 - [x] Top Rated (TV)
-- [x] Popular (TV, Movie)
+- [x] Popular (TV, X)
 - [x] Airing Today (TV)
 - [x] TV Show Detail
 - [x] Movie Detail
-- [x] Search (TV, Movie)
+- [x] Search (Movie, TV)
